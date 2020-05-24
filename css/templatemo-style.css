@@ -191,6 +191,21 @@ h1,h2,h3,h4,h5
     {
         padding-bottom: 10px;
     }
+@media only screen and (max-width: 600px) {
+    #home h2 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    #home h2 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    #home h2 {
+        font-size: 18px;
+    }
+}
 #home .btn
     {
         background: rgba(69, 69, 82, 0.877);
